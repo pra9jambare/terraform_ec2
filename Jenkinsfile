@@ -10,7 +10,7 @@ pipeline {
 
         stage('Checkout Code') {
             steps {
-                git 'https://github.com/pra9jambare/terraform_ec2'
+                git branch: 'main', url: 'https://github.com/pra9jambare/terraform_ec2'
             }
         }
 
